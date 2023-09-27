@@ -1,35 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Zombie.class.hpp                                   :+:      :+:    :+:   */
+/*   harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zbentalh <zbentalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/25 10:10:26 by zbentalh          #+#    #+#             */
-/*   Updated: 2023/07/26 21:34:44 by zbentalh         ###   ########.fr       */
+/*   Created: 2023/09/25 01:41:32 by zbentalh          #+#    #+#             */
+/*   Updated: 2023/09/25 02:13:39 by zbentalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ZOMBIE_CLASS_H
-#define	ZOMBIE_CLASS_H
+
+#pragma once
 #include <string>
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
-#include <set>
 
-class Zombie {
-	public:
-		//Zombie( void );
-		Zombie( std::string _name );
-		~Zombie( void );
-		void announce( void );
-		void set_name(std::string _name);
-	private:
-		std::string name;		
+class harl {
+    public:
+        void complain( std::string level );
+    private:
+        void debug( void );
+        void info( void );
+        void warning( void );
+        void error( void );
 };
-
-Zombie	*newZombie(std::string name);
-void	randomChump(std::string name);
-
-#endif

@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Zombie.class.hpp                                   :+:      :+:    :+:   */
+/*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zbentalh <zbentalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/26 21:22:26 by zbentalh          #+#    #+#             */
-/*   Updated: 2023/07/26 21:25:49 by zbentalh         ###   ########.fr       */
+/*   Created: 2023/07/25 10:10:26 by zbentalh          #+#    #+#             */
+/*   Updated: 2023/09/20 21:13:12 by zbentalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ZOMBIE_CLASS_H
-#define	ZOMBIE_CLASS_H
+#ifndef ZOMBIE_H
+#define	ZOMBIE_H
 #include <string>
 #include <iostream>
 #include <stdio.h>
@@ -20,7 +20,7 @@
 
 class Zombie {
 	public:
-		Zombie( void );
+		//Zombie( void );
 		Zombie( std::string _name );
 		~Zombie( void );
 		void announce( void );
@@ -29,6 +29,7 @@ class Zombie {
 		std::string name;		
 };
 
-Zombie	*zombieHorde(int N, std::string name);
+Zombie	*newZombie(std::string name);
+void	randomChump(std::string name);
 
 #endif

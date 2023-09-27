@@ -6,11 +6,11 @@
 /*   By: zbentalh <zbentalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 10:38:50 by zbentalh          #+#    #+#             */
-/*   Updated: 2023/07/26 21:36:47 by zbentalh         ###   ########.fr       */
+/*   Updated: 2023/09/20 21:19:35 by zbentalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.class.hpp"
+#include "Zombie.hpp"
 
 int	main(void)
 {

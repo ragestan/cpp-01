@@ -6,11 +6,11 @@
 /*   By: zbentalh <zbentalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 21:23:10 by zbentalh          #+#    #+#             */
-/*   Updated: 2023/07/26 21:47:58 by zbentalh         ###   ########.fr       */
+/*   Updated: 2023/09/20 23:40:46 by zbentalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Zombie.class.hpp"
+#include "Zombie.hpp"
 
 Zombie::Zombie(void)
 {
