@@ -6,7 +6,7 @@
 /*   By: zbentalh <zbentalh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/28 14:49:40 by zbentalh          #+#    #+#             */
-/*   Updated: 2023/07/28 14:50:04 by zbentalh         ###   ########.fr       */
+/*   Updated: 2023/10/04 01:06:48 by zbentalh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,4 @@ void HumanA::attack()
 {
 	std::cout << name << " attacks with their " << weapon.getType() << std::endl;
 }
+
